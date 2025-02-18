@@ -1,0 +1,82 @@
+.pt-sans-regular {
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  
+body {
+  background-color: #edf7e6;
+    font-family: "PT Sans", sans-serif; 
+    margin-left: 4rem;
+    margin-right:4rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+h1,h2,h3 {
+    color:#337109;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+}
+
+h1{
+margin-bottom: 0rem;
+}
+
+h2 {
+    margin-top: 4rem;
+    border-bottom: .1em solid;
+}
+
+h3{
+    margin-top: 2rem;
+}
+
+p, ol{
+font-size: 12pt;
+color: #3b9100;
+line-height: 1.5;
+}

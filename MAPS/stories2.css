@@ -1,0 +1,54 @@
+.roboto {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    font-family: Helvetica, "Roboto", sans-serif;
+    font-size: 9.6vw; 
+    margin-left: 10vw;
+    margin-right: 12vw;
+    margin-top:5.5vw;
+    background-color: #f5f3f3;
+    color: #303f52;
+    cursor: url('cursor_old.png'), auto !important;
+  }
+div{
+  color: #f5f3f3;
+  display: inline-block;
+}
+  p{
+    padding-top: 1vw;
+    font-size: 4vw;
+  }
+
+  a{
+    text-decoration: none;
+    transition: color .2s linear;
+  }
+  a:visited {
+    color: #303f52;
+  }
+  a:hover {
+    color: #1a80ff;
+  }
+  a:active{
+    color:#1a80ff;
+  }
+  .more{
+    color:#303f52;
+  }
+  @media screen and (min-width: 600px) {
+    p{
+      font-size: 3vw;
+  }
+  }
+  @media screen and (min-width: 1024px) {
+    p{
+      font-size: 2vw;
+  }
+  }

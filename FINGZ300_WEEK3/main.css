@@ -1,0 +1,77 @@
+/* Use these classes to style the .card component */
+body{
+    background-color: rgba(153, 193, 68, 0.835);
+}
+.card {
+    font-family: sans-serif;
+    line-height: 1.3;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: rgb(55, 23, 0);
+}
+.card__title {
+    font-size: 30pt;
+    padding: 1rem;
+}
+.card__excerpt {
+    font-size: 15pt;
+}
+.card__image {
+    margin: 1.5rem 0;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
+.card__more {
+    display: block;
+    background-color: rgb(255, 207, 149);
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 3vw;
+    border-radius: 1rem;
+    transition: background-color .2s linear, color .2s linear;
+    font-size: 13pt;
+    color: rgb(117, 49, 0);
+}
+.card__more:hover {
+    background-color: rgb(255, 180, 89);
+    color: rgb(255, 239, 220);
+}
+.card__more:active {
+    background-color: rgb(255, 140, 0);
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    
+  }
+  .card__title {
+    font-size: 4vw;
+  }
+  .card__excerpt {
+    font-size: 2vw;
+  }
+  .card__image {
+
+  }
+  .card__more {
+    font-size: 1.75vw;
+   
+  }
+  .card__more:hover {
+
+  }
+  .card__more:active {
+
+  }
+}
+
+/* You can leave everything below as is — we'll explain flexbox in a later lecture! */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 8vw;
+}
